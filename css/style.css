@@ -1,0 +1,29 @@
+.navbar-container {
+    background-color: #6f6f6f;
+}
+
+a.navbar-brand {
+
+}
+
+.navbar-dark .navbar-brand {
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    color: #a5d6a7;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #a5d6a7;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    color: #a5d6a7;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #3ec878;
+}
