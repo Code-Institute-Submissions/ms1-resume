@@ -41,3 +41,29 @@
 
     position: relative;
 }
+
+
+/*--------------------------------footer*/
+
+.footer-container {
+    background-color: #6f6f6f;
+    color: #a5d6a7;
+}
+
+.footer-about, .footer-links {
+    padding: 10px 15px 10px 15px;
+    line-height: 18px;
+}
+
+.footer-about h4, .footer-links h4 {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.footer-about p {
+    font-family: "Abel", sans-serif;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+}
+
