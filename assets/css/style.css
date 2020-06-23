@@ -47,22 +47,35 @@
     align-items: center;
 }
 
-.bio-info-container {
+.main-container {
     
     background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
-    height: 70vh;
+    height: 60vh;
 
 }
 
-.my-image {
+.portrait-image-container,
+.bio-info-container     {
+    display: flex;
+    align-items: center;
+}
+
+.portrait-image {
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     padding: 0;
+    height: 60%;
+    min-height: 320px;
+    width: 90%;
     margin: auto;
 }
 
+.bio-info {
+    width: 90%;
+    height: 40%;
+}
 /*--------------------------------footer*/
 
 .footer-container {
