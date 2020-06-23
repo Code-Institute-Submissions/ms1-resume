@@ -59,11 +59,18 @@
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
     font-weight: 300;
+    font-size: 18px;
 }
 
 .footer-about p {
     font-family: "Abel", sans-serif;
     margin-bottom: 0.5rem;
-    font-size: 18px;
+    font-size: 14px;
 }
 
+.social-links li a i {
+    width: 24px;
+    height: 24px;
+    color: #a5d6a7;
+    padding-right: 12px;
+}
