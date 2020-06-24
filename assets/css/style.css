@@ -10,7 +10,7 @@
     font-family: "Ubuntu", sans-serif;
     font-size: 24px;
     color: #a5d6a7;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .navbar-dark .navbar-toggler {
@@ -48,16 +48,12 @@
 }
 
 .main-container {
-    
     background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
-    height: 60vh;
-
 }
 
-.portrait-image-container,
-.bio-info-container     {
+.portrait-image-container {
     display: flex;
     align-items: center;
 }
@@ -72,8 +68,32 @@
     margin: auto;
 }
 
-.bio-info {
-    color: #fff;
+.bio-info-container {
+    position: relative;
+    color: #a5d6a7;  
+}
+
+.bio-info-header h2 {
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
+
+.bio-info-header p {
+    font-family: "Abel", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+.bio-info-item .key {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+}
+
+.bio-info-item .value {
+    font-family: "Abel", sans-serif;
 }
 /*--------------------------------footer*/
 
