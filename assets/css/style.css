@@ -53,9 +53,6 @@
     border-radius: 5px;
     min-height: 60vh;
     color: #f0f0f0;
-}
-
-.portrait-image-container {
     display: flex;
     align-items: center;
 }
