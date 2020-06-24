@@ -48,9 +48,11 @@
 }
 
 .main-container {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #6f6f6fdd;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
+    min-height: 60vh;
+    color: #f0f0f0;
 }
 
 .portrait-image-container {
@@ -69,8 +71,7 @@
 }
 
 .bio-info-container {
-    position: relative;
-    color: #a5d6a7;  
+    position: relative; 
 }
 
 .bio-info-header h2 {
