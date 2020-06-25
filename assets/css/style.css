@@ -33,7 +33,7 @@
 }
 
 
-/*--------------------------------bio section*/
+/*--------------------------------index.html section*/
 
 .bg-image-container {
     min-height: 100vh;
@@ -128,6 +128,24 @@
     margin-left: auto;
     padding-right: 6vw;
 }
+
+/*--------------------------------My Skills*/
+.skills-container {
+    background-color: #6f6f6fdd;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    min-height: 50vh;
+    color: #f0f0f0;
+}
+
+.skills-heading {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+}
+
 /*--------------------------------footer*/
 
 .footer-container {
