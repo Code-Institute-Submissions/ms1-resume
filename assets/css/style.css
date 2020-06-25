@@ -146,6 +146,14 @@
     margin-bottom: 4vh;
 }
 
+.my-skills {
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+}
+
+.skill-level {
+    font-family: "Abel", sans-serif;
+}
 /*--------------------------------footer*/
 
 .footer-container {
