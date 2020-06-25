@@ -11,6 +11,7 @@
     font-size: 24px;
     color: #a5d6a7;
     font-weight: 300;
+    letter-spacing: 2px;
 }
 
 .navbar-dark .navbar-toggler {
@@ -31,10 +32,6 @@
     color: #3ec878;
 }
 
-.nav-link {
-    margin-right: 10px;
-    letter-spacing: 2px;
-}
 
 /*--------------------------------bio section*/
 
@@ -62,7 +59,8 @@
     color: #f0f0f0;
     display: flex;
     align-items: center;
-
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .content-container {
@@ -73,7 +71,6 @@
     min-height: 40vh;
     display: flex;
     align-items: center;
-    text-align: center;
 }
 
 .portrait-image {
@@ -81,11 +78,15 @@
     margin-left: auto;
     margin-right: auto;
     min-height: 30vh;
-    height: 60%;
+    height: 75%;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     padding: 0;
-    width: 90%;
+    width: 80%;
+}
+
+.bio-info-header {
+    margin-bottom: 4vh;
 }
 
 .bio-info-header h2 {
@@ -100,8 +101,23 @@
     font-size: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+    .bio-info-container {
+        margin-left: 4vh;
+        margin-top: 8vh;
+    }
+}
 
+@media only screen and (max-width: 767px) {
+    .bio-info-container {
+        margin-left: 2vh;
+    }
+}
 
+.bio-info-item {
+    display: flex;
+    clear: both;
+}
 .bio-info-item .key {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
@@ -109,6 +125,8 @@
 
 .bio-info-item .value {
     font-family: "Abel", sans-serif;
+    margin-left: auto;
+    padding-right: 6vw;
 }
 /*--------------------------------footer*/
 
