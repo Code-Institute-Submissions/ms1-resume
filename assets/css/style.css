@@ -49,26 +49,32 @@
 
 .main-container {
     background-color: #6f6f6fdd;
+    position: relative;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
-    min-height: 60vh;
+    min-height: 50vh;
     color: #f0f0f0;
     display: flex;
     align-items: center;
+
+}
+
+.content-container {
+    min-height: 40vh;
+}
+
+.portrait-image-container {
+    min-height: 40vh;
 }
 
 .portrait-image {
+    min-height: 30vh;
+    height: 60%;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     padding: 0;
-    height: 60%;
-    min-height: 320px;
     width: 90%;
-    margin: auto;
-}
-
-.bio-info-container {
-    position: relative; 
+    margin-top: 5vh;
 }
 
 .bio-info-header h2 {
