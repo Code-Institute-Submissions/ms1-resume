@@ -23,6 +23,7 @@
     font-weight: 300;
     color: #a5d6a7;
     padding: 5px;
+    margin-right: 20px;
 }
 
 .navbar-dark .navbar-brand:hover,
@@ -30,10 +31,15 @@
     color: #3ec878;
 }
 
+.nav-link {
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+
 /*--------------------------------bio section*/
 
 .bg-image-container {
-    height: 100vh;
+    min-height: 100vh;
 
     background: url('../images/workspace-background-img2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
