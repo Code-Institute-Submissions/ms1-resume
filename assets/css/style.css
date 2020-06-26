@@ -176,7 +176,50 @@
 }
 
 /*--------------------------------Experience*/
+.education-history,
+.work-history {
+    background-color: #6f6f6fdd;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    min-height: 50vh;
+    color: #f0f0f0;
+    margin: 2vh;
+    padding-top: 2vh;
+}
 
+.experience-container {
+    display: flex;
+    align-items: center;
+    min-width: 90vw;
+}
+.experience-content {
+    min-width: 90vw;
+}
+
+.timeline-item {
+    position: relative;
+    border-left: 1px solid;
+    border-color: #a5d6a7;
+    padding-left: 1vw;
+}
+
+.education-history h2,
+.work-history h2 {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.timeline-item h4 {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 0;
+}
+
+.timeline-item p {
+    font-family: "Abel", sans-serif;
+    margin-bottom: 0;
+}
 
 
 /*--------------------------------footer*/
