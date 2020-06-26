@@ -137,6 +137,8 @@
     border-radius: 5px;
     min-height: 50vh;
     color: #f0f0f0;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .skills-heading {
@@ -155,10 +157,12 @@
 }
 .skill-category h3 {
     font-family: "Ubuntu", sans-serif;
+    margin-bottom: 2vh;
 }
 
 .skill-category i {
-    font-size: 36px;
+    font-size: 48px;
+    margin-bottom: 2vh;
 }
 
 .skill-category div {
