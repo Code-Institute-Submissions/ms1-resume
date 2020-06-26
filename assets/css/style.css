@@ -182,7 +182,6 @@
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
-    min-height: 50vh;
     color: #f0f0f0;
     margin: 2vh;
     padding-top: 2vh;
@@ -199,8 +198,9 @@
 
 .timeline-item {
     position: relative;
-    border-left: 1px solid;
+    border-left: 2px solid;
     border-color: #a5d6a7;
+    padding-top: 2vh;
     padding-left: 1vw;
 }
 
@@ -209,11 +209,13 @@
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 .timeline-item h4 {
     font-family: "Ubuntu", sans-serif;
     margin-bottom: 0;
+    margin-top: 20px;
 }
 
 .timeline-item p {
@@ -221,7 +223,31 @@
     margin-bottom: 0;
 }
 
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: 12px;
+    padding: 0;
+    margin: 0;
+}
 
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    content: '';
+    background-color: #a5d6a7;
+    left: -7px;
+    top: 15px;
+}
+
+.timeline-end {
+    margin-bottom: 4vh;
+}
 /*--------------------------------footer*/
 
 .footer-container {
