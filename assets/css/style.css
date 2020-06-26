@@ -85,6 +85,20 @@
     width: 80%;
 }
 
+@media only screen and (min-width: 768px) {
+    .bio-info-container {
+        margin-left: 4vh;
+        margin-top: 6vh;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .bio-info-container {
+        margin-left: 4vh;
+        margin-top: 8vh;
+    }
+}
+
 .bio-info-header {
     margin-bottom: 4vh;
 }
@@ -101,17 +115,8 @@
     font-size: 24px;
 }
 
-@media only screen and (min-width: 768px) {
-    .bio-info-container {
-        margin-left: 4vh;
-        margin-top: 8vh;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .bio-info-container {
-        margin-left: 2vh;
-    }
+.bio-info-content {
+    margin-bottom: 4vh;
 }
 
 .bio-info-item {
@@ -126,7 +131,6 @@
 .bio-info-item .value {
     font-family: "Abel", sans-serif;
     margin-left: auto;
-    padding-right: 6vw;
 }
 
 /*--------------------------------My Skills*/
