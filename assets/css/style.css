@@ -56,6 +56,7 @@
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     min-height: 50vh;
+    min-width: 75vh;
     color: #f0f0f0;
     display: flex;
     align-items: center;
@@ -173,6 +174,11 @@
     font-family: "Abel", sans-serif;
     font-size: 24px;
 }
+
+/*--------------------------------Experience*/
+
+
+
 /*--------------------------------footer*/
 
 .footer-container {
