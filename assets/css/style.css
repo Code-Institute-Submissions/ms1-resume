@@ -248,6 +248,27 @@
 .timeline-end {
     margin-bottom: 4vh;
 }
+
+/*--------------------------------Portfolio*/
+
+.portfolio-container {
+    background-color: #6f6f6fdd;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    min-height: 50vh;
+    color: #f0f0f0;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.portfolio-heading {
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    margin-top: 8vh;
+}
+
+
 /*--------------------------------footer*/
 
 .footer-container {
