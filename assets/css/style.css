@@ -56,46 +56,40 @@
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     min-height: 50vh;
-    min-width: 50vw;
+    min-width: 80vw;
     color: #f0f0f0;
-    display: flex;
-    align-items: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
 
 .content-container {
     min-height: 40vh;
+    min-width: 80vw;
+    margin-top: 3vh;
 }
 
 .portrait-image-container {
-    min-height: 40vh;
-    display: flex;
-    align-items: center;
+    background: url("../images/main-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    margin: 2vh;
+    padding: 0;
+    border: 1px solid #6f6f6fdd;
+    border-radius: 5px;
 }
 
-.portrait-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 30vh;
-    height: 75%;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 5px;
-    padding: 0;
-    width: 80%;
-}
 
 @media only screen and (min-width: 768px) {
     .bio-info-container {
-        margin-left: 4vh;
         margin-top: 6vh;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .bio-info-container {
-        margin-left: 4vh;
+        margin-left: 2vh;
         margin-top: 8vh;
     }
 }
@@ -188,8 +182,6 @@
 }
 
 .experience-container {
-    display: flex;
-    align-items: center;
     min-width: 90vw;
 }
 .experience-content {
