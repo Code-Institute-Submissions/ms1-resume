@@ -1,39 +1,47 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Dermot Keelan Resume
 
-Welcome Dermot-K,
+This is a resume site which provides information about me, my skills, my education and work experience, and my portfolio.
+The site allows provides users with links to my social media (LinkedIn, Twitter and Instagram), and links at which a pdf version of my CV can be downloaded.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The site is hosted on [GitHub Pages](https://dermot-k.github.io/ms1-resume/).
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![](https://github.com/Dermot-K/ms1-resume/blob/master/assets/images/responsive-resume.png)
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. A recruitment agent seeking candidates for job vacancies and wants to learn more about me.
+2. A potential employer wants to learn about my skills and experiences and obtain my CV.
+3. Potential collaborators seeking opportunities to work with others can assess my fit for their projects.
 
-A blue button should appear to click: *Make Public*,
+### Design
 
-Another blue button should appear to click: *Open Browser*.
+- The background image is from [Unsplash](https://unsplash.com/s/photos/workspace).
+- The website uses the following colours for the header, footer and content containers
+  - Grey #6f6f6f
+  - Header and footer fonts: shades of lime green #a5d6a7 and #3ec878
+  - Font color #f0f0f0
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- Font families used are from [Google Fonts](https://fonts.google.com/).
+  - Ubuntu for headings
+  - Abel for paragraphs
 
-## Updates Since The Instructional Video
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Existing Features
+- Documentation: ReadMe file
+- Bootstrap CSS Framework
+  - Grid layout: columns and rows
+  - Content layout
+- Responsive mobile first design
+- Accessibility
+- Git version control
+- GitHub remote repository
+- Deployed - hosted on GitHub Pages
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Planned Features
+- JavaScript focused development
+- Contact form
