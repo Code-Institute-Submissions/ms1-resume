@@ -121,11 +121,12 @@
 .bio-info-item .key {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .bio-info-item .value {
     font-family: "Abel", sans-serif;
-    margin-left: auto;
+    display: inline-block;
 }
 
 /*--------------------------------My Skills*/
@@ -172,7 +173,7 @@
 /*--------------------------------Experience*/
 .education-history,
 .work-history {
-    background-color: #6f6f6f;
+    background-color: #6f6f6fdd;
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
