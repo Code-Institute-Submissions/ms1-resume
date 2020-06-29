@@ -56,7 +56,7 @@
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
     min-height: 50vh;
-    min-width: 80vw;
+    min-width: 60vw;
     color: #f0f0f0;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -64,13 +64,13 @@
 
 .content-container {
     min-height: 40vh;
-    min-width: 80vw;
+    min-width: 60vw;
     margin-top: 3vh;
 }
 
 .portrait-image-container {
     background: url("../images/main-image.jpg");
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
@@ -90,6 +90,13 @@
 @media only screen and (min-width: 992px) {
     .bio-info-container {
         margin-left: 2vh;
+        margin-top: 8vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .bio-info-container {
+        padding-left: 4vh;
         margin-top: 8vh;
     }
 }
@@ -114,14 +121,11 @@
     margin-bottom: 4vh;
 }
 
-.bio-info-item {
-    display: flex;
-    clear: both;
-}
 .bio-info-item .key {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
     display: inline-block;
+    width: 25%;
 }
 
 .bio-info-item .value {
@@ -129,9 +133,19 @@
     display: inline-block;
 }
 
+.bio-info-item .key p,
+.bio-info-item .value p {
+    margin: 0;
+}
+
+.bio-info-item {
+    margin-bottom: 1vh;
+}
+
+
 /*--------------------------------My Skills*/
 .skills-container {
-    background-color: #6f6f6fdd;
+    background-color: #6f6f6f;
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
