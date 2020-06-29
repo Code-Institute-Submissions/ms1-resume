@@ -172,7 +172,7 @@
 /*--------------------------------Experience*/
 .education-history,
 .work-history {
-    background-color: #6f6f6fdd;
+    background-color: #6f6f6f;
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 5px;
@@ -258,6 +258,18 @@
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
     margin-top: 8vh;
+}
+
+.rosie {
+    background: url("../images/rosie.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.whiskey-drop {
+    background: url("../images/whiskey-drop.jpg");
 }
 
 
