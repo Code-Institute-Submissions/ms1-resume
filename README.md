@@ -82,12 +82,49 @@ Wireframes were drawn up on [Figma](https://www.figma.com/file/FFWiW4o8IMre9ERQ2
 
 The site was manually tested on different devices and browsers to check responsiveness and functionality.
 
+### Manual Testing
+I reached out to some family and friends to test the site on their devices.
+The site was tested on the following devices:
+  - Samsung S10 - Viewport size 360px * 760px
+  - Samsung S9+ - Viewport size 412px * 846px
+  - Apple iPad - Viewport size 768px * 1024px
+
+The site was found to be responsive and displaying as expected across the above screen sizes.
+
+Issues uncovered:
+1. Portfolio links were not opening in new tabs.
+  - This was rectified by adding the correct target attribute to the html anchor tags.
+2. A user reported difficulty reading the text in the experience page due to the container being transparent against the background image.
+  - This was rectified by making the containers fully opaque.
+
+### Testing on Different Browsers
+I used Google Chrome and Microsoft Edge dev tools throughout the project.
+The site functioned and responded as expected in both browsers when I tested them.
+
+Issues uncovered:
+1. A user reported an issue with the responsiveness in the iPad Pro viewport size (1024px * 1366px). The text on the index.html page was wrapping underneath my portrait image, rather than displaying side by side as intended.
+  -  The Bootstrap columns were adjusted to create space on the row at this viewport size and margins were also amended. This rectified the issue.
+
+### Code Validation
+- HTML
+  - All HTML was validated using the [W3C Markup Validation Service](https://validator.w3.org/).
+  - Warnings were returned about consecutive hyphens used in comments. 
+
+- CSS
+  - The CSS file was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/).
+  - Errors and warnings relating to Bootstrap were returned. No issues with my custom CSS were highlighted.
+
+
 ### User Stories
 1. A recruitment agent seeking candidates for job vacancies and wants to learn more about me, and refer me to employers with job vacancies.
   - On the homepage, skills page and experience page a user can obtain various information about me. The Download CV links in the header and footer can be used to obtain a CV which can be shared with potential employers.
-2. A potential employer wants to learn about my skills and experiences and obtain my CV.
+2. A recruitment agent wishes to contact me about job vacancies.
+  - On the home page the user can find my email address and phone number. The user can also scroll to the footer, click one of my social links and reach out to me there. The user can download my CV via links in the header and footer - my contact details are in that document.
+3. A potential employer wants to learn about my skills and experiences and obtain my CV.
   - Clicking through to the skills, experiences and portfolio pages provides info. A downloadable CV can be accessed via the Download CV links in the header and footer.
-3. Potential collaborators seeking opportunities to work with others can assess my fit for their projects.
+4. A potential employer wants to contact me to discuss employment opportunities.
+  - On the home page the user can find my email address and phone number. The user can also scroll to the footer, click one of my social links and reach out to me there. The user can download my CV via links in the header and footer - my contact details are in that document.
+5. Potential collaborators seeking opportunities to work with others can assess my fit for their projects.
   - Collaborators can get info on my skills at the skills page and access my portfolio at the portfolio page.
 
 ## Deployment
