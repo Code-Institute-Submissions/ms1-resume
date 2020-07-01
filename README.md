@@ -144,7 +144,7 @@ To deploy your own version of the website:
   - Have git installed
   - Visit the repository
   - Click 'Clone or download' and copy the code for http
-  - Open your chosen IDE (Cloud9, VS Code, etc.)
+  - Open your chosen IDE (GitPod, VS Code, etc.)
   - Open a terminal in your root directory
   - Type 'git clone ' followed by the code taken from github repository
   - git clone https://github.com/Dermot-K/ms1-resume.git
