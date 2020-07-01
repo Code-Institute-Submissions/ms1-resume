@@ -279,6 +279,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
     min-height: 360px;
     margin: 2vh;
     border: 1px solid #6f6f6fdd;
@@ -290,12 +291,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
     min-height: 360px;
     margin: 2vh;
     border: 1px solid #6f6f6fdd;
     border-radius: 5px;
 }
 
+.portfolio-description {
+    text-align: center;
+    font-family: "Abel", sans-serif;
+    font-size: 24px;
+}
 
 /*--------------------------------footer*/
 
