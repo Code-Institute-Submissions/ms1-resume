@@ -14,9 +14,11 @@ The site is hosted on [GitHub Pages](https://dermot-k.github.io/ms1-resume/).
 
 ### User Stories
 
-1. A recruitment agent seeking candidates for job vacancies and wants to learn more about me, and refer me to employers with job vacancies..
-2. A potential employer wants to learn about my skills and experiences and obtain my CV.
-3. Potential collaborators seeking opportunities to work with others can assess my fit for their projects.
+1. A recruitment agent seeking candidates for job vacancies and wants to learn more about me, and refer me to employers with job vacancies.
+2. A recruitment agent wishes to contact me about job vacancies.
+3. A potential employer wants to learn about my skills and experiences and obtain my CV.
+4. A potential employer wants to contact me to discuss employment opportunities.
+5. Potential collaborators seeking opportunities to work with others can assess my fit for their projects.
 
 ### Design
 
@@ -30,9 +32,16 @@ The site is hosted on [GitHub Pages](https://dermot-k.github.io/ms1-resume/).
   - Ubuntu for headings
   - Abel for paragraphs
 
+### Wireframes
+Wireframes were drawn up on [Figma](https://www.figma.com/file/FFWiW4o8IMre9ERQ2uoRGi/MS1-wireframe?node-id=14%3A8)
+
 ## Features
 
 ### Existing Features
+- Bio info, my skills info, experience and portfolio
+- Download links to PDF version of my CV
+- Links to my social media accounts
+- My contact information
 - Documentation: ReadMe file
 - Bootstrap CSS Framework
   - Grid layout: columns and rows
