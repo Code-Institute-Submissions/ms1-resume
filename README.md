@@ -139,6 +139,26 @@ The process involved:
 - Change source to master branch. (Or any desired branch)
 - Provided link will be your projects home (index) page.
 
+To deploy your own version of the website:
+
+  - Have git installed
+  - Visit the repository
+  - Click 'Clone or download' and copy the code for http
+  - Open your chosen IDE (Cloud9, VS Code, etc.)
+  - Open a terminal in your root directory
+  - Type 'git clone ' followed by the code taken from github repository
+  - git clone https://github.com/Dermot-K/ms1-resume.git
+  - When this completes you have your own version of the website
+  - Feel free to make any changes to it
+  - The website can be run by opening one of the HTML files within a web browser
+  - Visit the link provided
+  - Your website with any made changes will appear
+  - Saved changes to the website will appear here after refreshing the page
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.
+
 ## Credits
 - Seun Owonikoko - for the guidance and mentoring I needed to get through my first project!
 - Code Institute
